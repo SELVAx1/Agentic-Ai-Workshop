@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Databases (never commit these — they contain local data)
+*.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Environment variables (never commit secrets like PLANNER_DB_URL)
+.env
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
